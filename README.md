@@ -27,3 +27,31 @@ The data was sourced from Kaggle and contains columns such as show_id, type, tit
 
 **Usage**
 Open the Jupyter Notebook (.ipynb) file in JupyterLab or Jupyter Notebook and run the cells to reproduce the cleaning and preprocessing steps.
+
+**Questions**
+**1. What are missing values and how do you handle them?**
+Missing values are data points that are empty or null. You handle them by removing rows/columns, filling with mean/median/mode, or using advanced methods like interpolation.
+
+**2. How do you treat duplicate records?**
+Find duplicates using duplicated() and remove them with drop_duplicates() to ensure data accuracy.
+
+**3. Difference between dropna() and fillna() in Pandas?**
+
+dropna() removes rows or columns with missing data.
+
+fillna() replaces missing values with a specific value like mean or zero.
+
+**4. What is outlier treatment and why is it important?**
+Outlier treatment deals with extreme values that can distort analysis. It's important to improve model performance and data quality.
+
+**5. Explain the process of standardizing data.**
+Standardizing scales data to have a mean of 0 and standard deviation of 1, making features comparable.
+
+**6. How do you handle inconsistent data formats (e.g., date/time)?**
+Convert all values to a consistent format using parsing functions like pd.to_datetime().
+
+**7. What are common data cleaning challenges?**
+Missing data, duplicates, inconsistent formats, outliers, and incorrect data types.
+
+**8. How can you check data quality?**
+By reviewing missing values, duplicates, data types, summary statistics, and ensuring consistency.
