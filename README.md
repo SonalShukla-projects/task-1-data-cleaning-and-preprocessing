@@ -1,14 +1,14 @@
 ### task-1-data-cleaning-and-preprocessing
-##Project Title
+Project Title
 Netflix Dataset Cleaning and Preprocessing
 
-##Description
+Description
 This project involves cleaning and preparing a raw Netflix dataset to make it ready for analysis. The dataset contains information about shows and movies including type, title, director, cast, country, date added, duration, and genres.
 
-##Dataset
+Dataset
 The data was sourced from Kaggle and contains columns such as show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, and description.
 
-##Data Cleaning and Preprocessing Steps
+Data Cleaning and Preprocessing Steps
 1. Handled missing values by filling or imputing where necessary.
 
 2. Removed duplicate records to maintain data integrity.
@@ -25,5 +25,5 @@ The data was sourced from Kaggle and contains columns such as show_id, type, tit
 
 8. Dropped unnecessary columns to keep the dataset clean and focused.
 
-##Usage
+Usage
 Open the Jupyter Notebook (.ipynb) file in JupyterLab or Jupyter Notebook and run the cells to reproduce the cleaning and preprocessing steps.
